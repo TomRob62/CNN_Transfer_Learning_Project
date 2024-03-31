@@ -12,6 +12,7 @@ import tensorflow
 from tensorflow.keras.applications import resnet_v2
 from tensorflow.keras.applications import vgg19
 from transfer_learning import Transfer_Learning as tl
+from my_statistics import My_Statistics
 
 
 # calling dataset directory creation method. 
@@ -19,7 +20,7 @@ tl.create_dataset("Test")
 tl.create_dataset("Train")
 
 # creating dataset object
-dataset, validation = tensorflow.keras.utils.image_dataset_from_directory("dataset\\Train",
+training_ds, validation_ds = tensorflow.keras.utils.image_dataset_from_directory("dataset\\Train",
                                                               labels = 'inferred',
                                                               label_mode = 'categorical',
                                                               color_mode = 'rgb',
@@ -34,16 +35,31 @@ testing_ds = tensorflow.keras.utils.image_dataset_from_directory("dataset\\Test"
                                                               seed = 7,
                                                               batch_size = 16)
 
-resnet_model = resnet_v2.ResNet50V2(include_top=False)
-resnet_model = tl.adjust_model(resnet_model)
-resnet_model = tl.train_model(resnet_model, dataset, validation, max_epoch=5)
-accuracy = resnet_model.evaluate(testing_ds, verbose=0)
-print("\nResnet Metrics: ")
-print(accuracy)
+learning_rates = [0.0001, 0.0005, 0.001, 0.005, 0.01]
 
-vgg_model = vgg19.VGG19(include_top=False)
-vgg_model = tl.adjust_model(vgg_model)
-vgg_model = tl.train_model(vgg_model, dataset, validation, max_epoch=5)
-accuracy = vgg_model.evaluate(testing_ds, verbose=0)
-print("\nVGG Metrics:")
-print(accuracy)
+for lr in learning_rates:
+    for e in range(5):
+        resnet_model = resnet_v2.ResNet50V2(include_top=False)
+        resnet_model = tl.adjust_model(resnet_model)
+        resnet_model = tl.train_model(resnet_model, training_ds, validation_ds, max_epoch=5)
+        accuracy = resnet_model.evaluate(testing_ds, verbose=0)
+
+        stats = My_Statistics(e, lr)
+        stats.training_loss, stats.training_acc = resnet_model.evaluate(training_ds, verbose=0)
+        stats.test_loss, stats.test_acc = resnet_model.evaluate(testing_ds, verbose=0)
+        stats.valid_loss, stats.valid_acc = resnet_model.evaluate(validation_ds, verbose=0)
+        stats.print_statistics()
+        stats.save_statistics()
+
+        vgg_model = vgg19.VGG19(include_top=False)
+        vgg_model = tl.adjust_model(vgg_model)
+        vgg_model = tl.train_model(vgg_model, training_ds, validation_ds, max_epoch=5)
+        accuracy = vgg_model.evaluate(testing_ds, verbose=0)
+
+        stats = My_Statistics(e, lr)
+        stats.training_loss, stats.training_acc = vgg_model.evaluate(training_ds, verbose=0)
+        stats.test_loss, stats.test_acc = vgg_model.evaluate(testing_ds, verbose=0)
+        stats.valid_loss, stats.valid_acc = vgg_model.evaluate(validation_ds, verbose=0)
+        stats.print_statistics()
+        stats.save_statistics()
+
