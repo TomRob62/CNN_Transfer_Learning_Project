@@ -72,7 +72,7 @@ class Transfer_Learning:
         # adding custom layers to model to fit out dataset
         my_model = tensorflow.keras.Sequential()
         my_model.add(model)
-        my_model.add(tensorflow.keras.layers.Con2D(64, (3,3), activation = "relu"))
+        my_model.add(tensorflow.keras.layers.Conv2D(64, (3,3), activation = "relu"))
         my_model.add(tensorflow.keras.layers.Flatten())
         my_model.add(tensorflow.keras.layers.Dense(256, activation='relu'))
         my_model.add(tensorflow.keras.layers.Dropout(0.5))
