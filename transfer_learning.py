@@ -80,8 +80,8 @@ class Transfer_Learning:
         return my_model
     # end of definition adjust model
 
-    def train_model(model, training_ds, validation_ds, learning_r = 0.005, max_epoch = 10):
-        optimize = tensorflow.keras.optimizers.SGD(learning_rate = learning_r, momentum = 0.9)
+    def train_model(model, training_ds, validation_ds, learning_r = 0.005, max_epoch = 10, momentum_current = 0.9):
+        optimize = tensorflow.keras.optimizers.SGD(learning_rate = learning_r, momentum = momentum_current)
         model.compile(loss='categorical_crossentropy', optimizer=optimize, metrics=['accuracy'])
         history = model.fit(training_ds, epochs = max_epoch, validation_data=validation_ds)
         return model
