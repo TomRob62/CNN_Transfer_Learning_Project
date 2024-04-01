@@ -1,3 +1,4 @@
 .venv/
 DS_IDRID/
 dataset/
+__pycache__
