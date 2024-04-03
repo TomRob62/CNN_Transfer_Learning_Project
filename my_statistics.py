@@ -29,6 +29,10 @@ class Statistics_Object:
     Functions
     ---------
     __init__()
+    add_accuracy()
+    add_loss()
+    add_pair()
+    __str__()
     """
 
     # list of attributes for model optimizer
