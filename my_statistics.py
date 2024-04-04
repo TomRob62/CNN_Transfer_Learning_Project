@@ -147,8 +147,8 @@ class Statistics_Object:
              self.batch_size,
              self.learning_rate,
              self.momentum)
-        obj_string = obj_string + "\nAccuracy: " + \
-            str(self.accuracy) + "\nLoss: " + str(self.loss)
+        obj_string = obj_string + " \nAccuracy: " + \
+            str(self.accuracy) + " \nLoss: " + str(self.loss)
         return obj_string
 # end class Statistics
 
@@ -282,22 +282,20 @@ class Statistics_Manager:
         Helper function to extract results from text file
         """
         result_list = []
-        index = 0
-        current_obj = []
-        while index < len(line):
-            start = index
-            if line[start] == "\'":
-                index = index+1
-                while index < len(line) and not line[index] == "'":
-                    index = index+1
-                current_obj.append(line[start+1:index])
-            elif line[start:start+1] == ", ":
-                while index < len(line) and not line[index] == "]":
-                    index = index+1
-                current_obj.append(float(line[start+1:index]))
-                result_list.append(current_obj)
-                current_obj = []
+        modified_line = ""
+        for char in line:
+            if not (char == "[" or char == "]" or char == "," or char == "'"):
+                modified_line = modified_line + char
+        words_in_line = modified_line.split(" ")
+        my_list = []
+        words_in_line.pop(0)
+        for num, word in enumerate(words_in_line):
+            if num % 2 == 0:
+                my_list.append(word)
             else:
-                index = index+1
+                my_list.append(float(word))
+                result_list.append(my_list.copy())
+                my_list = []
+
         return result_list
 # end class Statistics_Manager
