@@ -38,10 +38,10 @@ class Statistics_Object:
     """
 
     # list of attributes for model optimizer
-    max_epoch = 0
-    learning_rate = 0.01
-    batch_size = 32
-    momentum = 0.9
+    max_epoch = -1
+    learning_rate = -1
+    batch_size = -1
+    momentum = -1
     optimizer_name = ""
     model_name = ""
 
@@ -50,7 +50,8 @@ class Statistics_Object:
     loss = []
     accuracy = []
 
-    def __init__(self, epoch, batch_size, learning_rate, momentum, optimzer, model) -> None:
+
+    def __init__(self, epoch = -1, batch_size = -1, learning_rate = -1, momentum = -1, optimzer = "", model = "") -> None:
         """
             Constructor function for statistics object. It holds information for a single 
             model such as optimizer information and results.
@@ -173,12 +174,12 @@ class Statistics_Manager:
         return None
     # end of __init__()
 
-    def add(self, object: Statistics_Object) -> None:
+    def add(self, obj: Statistics_Object) -> None:
         """
         appends the statistics object to class list
         """
         new_list = list(self.objects_list)
-        new_list.append(object)
+        new_list.append(obj)
         self.objects_list = tuple(new_list)
         return None
     # end of definition add()
@@ -237,3 +238,66 @@ class Statistics_Manager:
 
         return None
     # end of definition print
+
+    def write_file(self, file_name: str) -> None:
+        """
+        Write all statistics to a txt file
+        """
+        file = open(file_name, "a")
+        for obj in self.objects_list:
+            file.write(str(obj))
+        return None
+    # end definition write_file
+
+    def read_file(self, file_name: str) -> None:
+        """
+        Constructor function given a file
+        """
+        file = open(file_name, "r")
+
+        list_objects = []
+        obj = Statistics_Object()
+        for line in file.readlines():
+            # creating new statistics object
+            if line.__contains__("Model"):
+                obj.model_name = line[5:]
+            elif line.__contains__("stats"):
+                line_split = line.split()
+                obj.optimizer_name = line_split[line_split.index("name")+2]
+                obj.max_epoch = line_split[line_split.index("epoch")+2]
+                obj.batch_size = line_split[line_split.index("batch_size")+2]
+                obj.learning_rate = line_split[line_split.index("learning_rate")+2]
+                obj.momentum = line_split[line_split.index("momentum")+2]
+            elif line.__contains__("Accuracy:"):
+                obj.accuracy = Statistics_Manager.extract_result(line)
+            elif line.__contains__("Loss:"):
+                obj.loss = Statistics_Manager.extract_result(line)
+                list_objects.append(obj)
+                obj = Statistics_Object()
+        self.objects_list = tuple(list_objects)
+        return None
+
+    def extract_result(line: str) -> list:
+        """
+        Helper function to extract results from text file
+        """
+        result_list = []
+        index = 0
+        current_obj = []
+        while index < len(line):
+            start = index
+            if line[start] == "\'":
+                index = index+1
+                while index < len(line) and not line[index] == "'":
+                    index = index+1
+                current_obj.append(line[start+1:index])
+            elif line[start:start+1] == ", ":
+                while index < len(line) and not line[index] == "]":
+                    index = index+1
+                current_obj.append(float(line[start+1:index]))
+                result_list.append(current_obj)
+                current_obj = []
+            else:
+                index = index+1
+        return result_list
+# end class Statistics_Manager
