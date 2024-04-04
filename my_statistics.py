@@ -195,7 +195,7 @@ class Statistics_Manager:
         return None
     # end of definition add()
     
-    def print_by_accuracy(self) -> None:
+    def print_by_accuracy(self, limit = -1) -> None:
         """
         prints all statistics objects in order by accuracy
         """
@@ -216,7 +216,7 @@ class Statistics_Manager:
                     sorted_list.append(current_obj)
             # end of else
         # end of for
-        for obj in sorted_list:
+        for obj in sorted_list[:limit]:
             print(obj)
         return None
 
