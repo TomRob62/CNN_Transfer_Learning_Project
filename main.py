@@ -8,6 +8,7 @@ This program will try to implement a CNN with VGG and ResNet50 then
 compare the results
 """
 
+import os
 import tensorflow
 from tensorflow.keras.applications import resnet_v2
 from tensorflow.keras.applications import vgg19
@@ -77,5 +78,6 @@ for lr in learning_rates:
             my_manager.print()
 # end of nested loops
 my_manager.write_file("project4_statistics.txt")
-my_manager.print_by_accuracy()
+os.system("cls")
+my_manager.print_by_accuracy(5)
 
