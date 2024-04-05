@@ -38,7 +38,7 @@ testing_ds = tensorflow.keras.utils.image_dataset_from_directory("dataset\\Test"
 
 # These are the hyper parameters that we are testing
 learning_rates = [0.0001, 0.00025, 0.0005, 0.001, 0.005, 0.01]
-momentum = [0, 0.3, 0.6, 0.9]
+momentum = [0.1, 0.3, 0.6, 0.9]
 
 # Statistics Storing
 my_manager = Statistics_Manager()
@@ -49,7 +49,7 @@ for lr in learning_rates:
             # model #1 resnet
             resnet_model = resnet_v2.ResNet50V2(include_top=False)
             resnet_model = tl.adjust_model(resnet_model)
-            resnet_model = tl.train_model(resnet_model, training_ds, validation_ds, max_epoch=e)
+            resnet_model = tl.train_model(resnet_model, training_ds, validation_ds, max_epoch=e, learning_r=lr, momentum_current= moment)
 
             # storing statistics
             resnet_obj = Statistics_Object(e, 16, lr, moment, "SGD", "resnet")
@@ -63,10 +63,10 @@ for lr in learning_rates:
 
             vgg_model = vgg19.VGG19(include_top=False)
             vgg_model = tl.adjust_model(vgg_model)
-            vgg_model = tl.train_model(vgg_model, training_ds, validation_ds, max_epoch=e)
+            vgg_model = tl.train_model(vgg_model, training_ds, validation_ds, max_epoch=e, learning_r=lr, momentum_current=moment)
             accuracy = vgg_model.evaluate(testing_ds, verbose=0)
 
-            vgg_obj = Statistics_Object(e, 16, lr, moment, "SGD", "resnet")
+            vgg_obj = Statistics_Object(e, 16, lr, moment, "SGD", "vgg")
             train_pair = vgg_model.evaluate(training_ds, verbose = 0)
             valid_pair = vgg_model.evaluate(validation_ds, verbose = 0)
             test_pair = vgg_model.evaluate(testing_ds, verbose = 0)
@@ -74,6 +74,7 @@ for lr in learning_rates:
             vgg_obj.add_pair(valid_pair, "Validation Dataset")
             vgg_obj.add_pair(test_pair, "Testing Dataset")
             my_manager.add(vgg_obj)
+            my_manager.print()
 # end of nested loops
 my_manager.write_file("project4_statistics.txt")
 my_manager.print_by_accuracy()
