@@ -306,17 +306,31 @@ class Statistics_Manager:
         # seperating by space
         words_in_line = modified_line.split(" ")
         my_list = []
+        name = ""
         words_in_line.pop(0)
         # generating sub list e.g. ['name', result:float] 
         # and appending to main list
-        for num, word in enumerate(words_in_line):
-            if num % 2 == 0:
-                my_list.append(word)
-            else:
+        for word in words_in_line:
+            if Statistics_Manager.has_num(word):
+                my_list.append(name)
                 my_list.append(float(word))
                 result_list.append(my_list.copy())
                 my_list = []
+                name = ""
+            else:
+                name = name + word
 
         return result_list
     # end definition extract_result()
+
+    def has_num(word: str) -> bool:
+        """
+        Returns if a string contains a number
+        """
+        nums = "0123456789"
+        for charact in nums:
+            if word.__contains__(charact):
+                return True
+            
+        return False
 # end class Statistics_Manager
