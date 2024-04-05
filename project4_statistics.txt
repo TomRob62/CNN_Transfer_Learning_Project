@@ -1,0 +1,961 @@
+
+Model: resnet
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.0001, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 5.394956111907959], ['Validation Dataset', 4.62180233001709], ['Testing Dataset', 5.6911492347717285]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.0001, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.7555555701255798], ['Validation Dataset', 0.7272727489471436], ['Testing Dataset', 0.6212121248245239]] 
+Loss: [['Training Dataset', 0.814184844493866], ['Validation Dataset', 0.7857545018196106], ['Testing Dataset', 1.019950270652771]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.0001, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.5]] 
+Loss: [['Training Dataset', 0.6931495666503906], ['Validation Dataset', 0.69316565990448], ['Testing Dataset', 0.6920714974403381]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.0001, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.6666666865348816], ['Validation Dataset', 0.7402597665786743], ['Testing Dataset', 0.5909090638160706]] 
+Loss: [['Training Dataset', 1.0637344121932983], ['Validation Dataset', 1.2248711585998535], ['Testing Dataset', 2.4006922245025635]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.0001, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.6111111044883728], ['Validation Dataset', 0.48051947355270386], ['Testing Dataset', 0.5303030014038086]] 
+Loss: [['Training Dataset', 0.6799454689025879], ['Validation Dataset', 0.6927086114883423], ['Testing Dataset', 0.691896915435791]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.0001, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.8666666746139526], ['Validation Dataset', 0.7662337422370911], ['Testing Dataset', 0.5909090638160706]] 
+Loss: [['Training Dataset', 0.3380003869533539], ['Validation Dataset', 0.875462532043457], ['Testing Dataset', 2.06853985786438]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.0001, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5584415793418884], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6931471824645996], ['Validation Dataset', 0.6944553852081299], ['Testing Dataset', 0.6931467056274414]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.0001, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.9277777671813965], ['Validation Dataset', 0.8441558480262756], ['Testing Dataset', 0.7121211886405945]] 
+Loss: [['Training Dataset', 0.178552508354187], ['Validation Dataset', 0.5302690267562866], ['Testing Dataset', 0.8485394716262817]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.0001, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.4888888895511627], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.693547785282135], ['Validation Dataset', 0.6931411027908325], ['Testing Dataset', 0.693152666091919]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.0001, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.9166666865348816], ['Validation Dataset', 0.7402597665786743], ['Testing Dataset', 0.6515151262283325]] 
+Loss: [['Training Dataset', 0.2641318142414093], ['Validation Dataset', 0.8515876531600952], ['Testing Dataset', 2.1061553955078125]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.0001, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6985496878623962], ['Validation Dataset', 0.6931682229042053], ['Testing Dataset', 0.693127453327179]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.0001, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.6277777552604675], ['Validation Dataset', 0.5974025726318359], ['Testing Dataset', 0.560606062412262]] 
+Loss: [['Training Dataset', 1.6451436281204224], ['Validation Dataset', 2.02258038520813], ['Testing Dataset', 3.2249045372009277]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.0001, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.5], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6933199763298035], ['Validation Dataset', 0.6914488673210144], ['Testing Dataset', 0.6925093531608582]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.0001, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.8611111044883728], ['Validation Dataset', 0.8051947951316833], ['Testing Dataset', 0.6363636255264282]] 
+Loss: [['Training Dataset', 0.3135402202606201], ['Validation Dataset', 0.7784902453422546], ['Testing Dataset', 1.509357213973999]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.0001, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.4888888895511627], ['Validation Dataset', 0.5974025726318359], ['Testing Dataset', 0.5303030014038086]] 
+Loss: [['Training Dataset', 0.6936702728271484], ['Validation Dataset', 0.6927916407585144], ['Testing Dataset', 0.6916622519493103]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.0001, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.855555534362793], ['Validation Dataset', 0.7272727489471436], ['Testing Dataset', 0.6515151262283325]] 
+Loss: [['Training Dataset', 0.45016536116600037], ['Validation Dataset', 0.8501209020614624], ['Testing Dataset', 1.6836789846420288]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.0001, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6931455731391907], ['Validation Dataset', 0.6938872933387756], ['Testing Dataset', 0.6931546926498413]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.0001, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.9111111164093018], ['Validation Dataset', 0.7792207598686218], ['Testing Dataset', 0.7727272510528564]] 
+Loss: [['Training Dataset', 0.1660165637731552], ['Validation Dataset', 0.614711344242096], ['Testing Dataset', 0.7254467010498047]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.0001, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6931408047676086], ['Validation Dataset', 0.693010151386261], ['Testing Dataset', 0.6929244995117188]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.0001, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.9555555582046509], ['Validation Dataset', 0.8571428656578064], ['Testing Dataset', 0.7121211886405945]] 
+Loss: [['Training Dataset', 0.11222308874130249], ['Validation Dataset', 0.6187924146652222], ['Testing Dataset', 0.9554683566093445]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.0001, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.5111111402511597], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6952174305915833], ['Validation Dataset', 0.6942583918571472], ['Testing Dataset', 0.6917657852172852]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.0001, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.8333333134651184], ['Validation Dataset', 0.7532467246055603], ['Testing Dataset', 0.6515151262283325]] 
+Loss: [['Training Dataset', 0.4625403881072998], ['Validation Dataset', 1.0548697710037231], ['Testing Dataset', 1.742835283279419]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.0001, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.5277777910232544], ['Validation Dataset', 0.44155845046043396], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6901078820228577], ['Validation Dataset', 0.6985370516777039], ['Testing Dataset', 0.6931419372558594]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.0001, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.8888888955116272], ['Validation Dataset', 0.7272727489471436], ['Testing Dataset', 0.6363636255264282]] 
+Loss: [['Training Dataset', 0.3560187518596649], ['Validation Dataset', 1.3072445392608643], ['Testing Dataset', 2.6485328674316406]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.0001, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.693138062953949], ['Validation Dataset', 0.6931840181350708], ['Testing Dataset', 0.6931527853012085]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.0001, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.9555555582046509], ['Validation Dataset', 0.7662337422370911], ['Testing Dataset', 0.7121211886405945]] 
+Loss: [['Training Dataset', 0.09901309013366699], ['Validation Dataset', 0.7746046781539917], ['Testing Dataset', 0.9713465571403503]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.0001, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.5166666507720947], ['Validation Dataset', 0.44155845046043396], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6924593448638916], ['Validation Dataset', 0.6925475597381592], ['Testing Dataset', 0.6930973529815674]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.0001, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.9777777791023254], ['Validation Dataset', 0.8311688303947449], ['Testing Dataset', 0.7727272510528564]] 
+Loss: [['Training Dataset', 0.08322098106145859], ['Validation Dataset', 0.4527176320552826], ['Testing Dataset', 0.8097859621047974]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.0001, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.4285714328289032], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6931424140930176], ['Validation Dataset', 0.6928925514221191], ['Testing Dataset', 0.6931501030921936]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.0001, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.9722222089767456], ['Validation Dataset', 0.8441558480262756], ['Testing Dataset', 0.7272727489471436]] 
+Loss: [['Training Dataset', 0.0906759724020958], ['Validation Dataset', 0.40031343698501587], ['Testing Dataset', 1.0822529792785645]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.0001, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6931617259979248], ['Validation Dataset', 0.6932603716850281], ['Testing Dataset', 0.6931644678115845]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.0001, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.8833333253860474], ['Validation Dataset', 0.8441558480262756], ['Testing Dataset', 0.7575757503509521]] 
+Loss: [['Training Dataset', 0.5049242973327637], ['Validation Dataset', 0.6105415225028992], ['Testing Dataset', 0.999316394329071]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.0001, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6931753754615784], ['Validation Dataset', 0.6930832862854004], ['Testing Dataset', 0.693137526512146]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.0001, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.9111111164093018], ['Validation Dataset', 0.8441558480262756], ['Testing Dataset', 0.7272727489471436]] 
+Loss: [['Training Dataset', 0.21494995057582855], ['Validation Dataset', 0.6286265254020691], ['Testing Dataset', 1.2696462869644165]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.0001, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.44155845046043396], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6931059956550598], ['Validation Dataset', 0.6846166849136353], ['Testing Dataset', 0.6942206621170044]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.0001, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.9833333492279053], ['Validation Dataset', 0.8571428656578064], ['Testing Dataset', 0.8333333134651184]] 
+Loss: [['Training Dataset', 0.041107598692178726], ['Validation Dataset', 0.5378429293632507], ['Testing Dataset', 0.7126364707946777]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.0001, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6931535601615906], ['Validation Dataset', 0.6930495500564575], ['Testing Dataset', 0.6931326389312744]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.0001, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.9944444298744202], ['Validation Dataset', 0.8701298832893372], ['Testing Dataset', 0.7727272510528564]] 
+Loss: [['Training Dataset', 0.008447964675724506], ['Validation Dataset', 0.448462575674057], ['Testing Dataset', 0.6903018951416016]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.0001, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6931523680686951], ['Validation Dataset', 0.6931878328323364], ['Testing Dataset', 0.6931533813476562]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.0001, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.9944444298744202], ['Validation Dataset', 0.8961039185523987], ['Testing Dataset', 0.8333333134651184]] 
+Loss: [['Training Dataset', 0.006240012124180794], ['Validation Dataset', 0.33296138048171997], ['Testing Dataset', 0.793990969657898]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.00025, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6750977635383606], ['Validation Dataset', 0.6782256364822388], ['Testing Dataset', 0.6930990815162659]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.00025, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.5666666626930237], ['Validation Dataset', 0.48051947355270386], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 2.677729845046997], ['Validation Dataset', 4.465452194213867], ['Testing Dataset', 4.076786994934082]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.00025, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6931552886962891], ['Validation Dataset', 0.693211019039154], ['Testing Dataset', 0.6931568384170532]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.00025, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.7722222208976746], ['Validation Dataset', 0.6753246784210205], ['Testing Dataset', 0.6666666865348816]] 
+Loss: [['Training Dataset', 0.9387059211730957], ['Validation Dataset', 1.5122239589691162], ['Testing Dataset', 1.8553104400634766]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.00025, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.693143904209137], ['Validation Dataset', 0.6931602358818054], ['Testing Dataset', 0.6931629180908203]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.00025, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.9555555582046509], ['Validation Dataset', 0.7532467246055603], ['Testing Dataset', 0.6969696879386902]] 
+Loss: [['Training Dataset', 0.08027868717908859], ['Validation Dataset', 0.5747027397155762], ['Testing Dataset', 0.6466022729873657]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.00025, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6930699348449707], ['Validation Dataset', 0.6933242082595825], ['Testing Dataset', 0.6929876208305359]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.00025, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.9722222089767456], ['Validation Dataset', 0.8311688303947449], ['Testing Dataset', 0.6666666865348816]] 
+Loss: [['Training Dataset', 0.07958915084600449], ['Validation Dataset', 0.45193353295326233], ['Testing Dataset', 0.9756503105163574]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.00025, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.5], ['Validation Dataset', 0.5974025726318359], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6895328164100647], ['Validation Dataset', 0.7589997053146362], ['Testing Dataset', 0.693114697933197]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.00025, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.9833333492279053], ['Validation Dataset', 0.8051947951316833], ['Testing Dataset', 0.8030303120613098]] 
+Loss: [['Training Dataset', 0.04278423264622688], ['Validation Dataset', 0.5839608907699585], ['Testing Dataset', 1.3280280828475952]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.00025, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.5722222328186035], ['Validation Dataset', 0.4545454680919647], ['Testing Dataset', 0.469696968793869]] 
+Loss: [['Training Dataset', 0.6684889197349548], ['Validation Dataset', 0.7133499383926392], ['Testing Dataset', 0.7344127893447876]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.00025, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.8388888835906982], ['Validation Dataset', 0.7922077775001526], ['Testing Dataset', 0.6515151262283325]] 
+Loss: [['Training Dataset', 0.5367695689201355], ['Validation Dataset', 0.854006290435791], ['Testing Dataset', 1.5234473943710327]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.00025, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.5222222208976746], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.469696968793869]] 
+Loss: [['Training Dataset', 0.6836631894111633], ['Validation Dataset', 0.6979871392250061], ['Testing Dataset', 29.614521026611328]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.00025, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.894444465637207], ['Validation Dataset', 0.7922077775001526], ['Testing Dataset', 0.6818181872367859]] 
+Loss: [['Training Dataset', 0.2735191285610199], ['Validation Dataset', 0.6928845047950745], ['Testing Dataset', 0.9615997076034546]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.00025, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.5111111402511597], ['Validation Dataset', 0.4025973975658417], ['Testing Dataset', 0.5]] 
+Loss: [['Training Dataset', 0.6895071864128113], ['Validation Dataset', 0.6951716542243958], ['Testing Dataset', 0.6270609498023987]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.00025, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.9111111164093018], ['Validation Dataset', 0.7662337422370911], ['Testing Dataset', 0.6818181872367859]] 
+Loss: [['Training Dataset', 0.17947405576705933], ['Validation Dataset', 0.6664782166481018], ['Testing Dataset', 0.8770765066146851]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.00025, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6931552290916443], ['Validation Dataset', 0.6932109594345093], ['Testing Dataset', 0.693224310874939]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.00025, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.9944444298744202], ['Validation Dataset', 0.8831169009208679], ['Testing Dataset', 0.8181818127632141]] 
+Loss: [['Training Dataset', 0.04306740686297417], ['Validation Dataset', 0.6348778605461121], ['Testing Dataset', 1.416355848312378]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.00025, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6931459903717041], ['Validation Dataset', 0.6931379437446594], ['Testing Dataset', 0.6931458115577698]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.00025, momentum = 0.3 
+Accuracy: [['Training Dataset', 1.0], ['Validation Dataset', 0.8311688303947449], ['Testing Dataset', 0.6666666865348816]] 
+Loss: [['Training Dataset', 0.019356846809387207], ['Validation Dataset', 0.47834092378616333], ['Testing Dataset', 1.3569879531860352]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.00025, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6931278705596924], ['Validation Dataset', 0.6934882402420044], ['Testing Dataset', 0.693200409412384]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.00025, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.9166666865348816], ['Validation Dataset', 0.8181818127632141], ['Testing Dataset', 0.6818181872367859]] 
+Loss: [['Training Dataset', 0.33419665694236755], ['Validation Dataset', 0.6804469227790833], ['Testing Dataset', 1.178553819656372]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.00025, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.5222222208976746], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6821373105049133], ['Validation Dataset', 0.6936850547790527], ['Testing Dataset', 0.6926692724227905]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.00025, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.8833333253860474], ['Validation Dataset', 0.7402597665786743], ['Testing Dataset', 0.6666666865348816]] 
+Loss: [['Training Dataset', 0.3561907708644867], ['Validation Dataset', 0.8962658047676086], ['Testing Dataset', 1.8455787897109985]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.00025, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6930988430976868], ['Validation Dataset', 0.6943236589431763], ['Testing Dataset', 0.6933456659317017]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.00025, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.9222221970558167], ['Validation Dataset', 0.8311688303947449], ['Testing Dataset', 0.7424242496490479]] 
+Loss: [['Training Dataset', 0.1751384735107422], ['Validation Dataset', 0.7504343390464783], ['Testing Dataset', 0.8764992952346802]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.00025, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6931726336479187], ['Validation Dataset', 0.6930471658706665], ['Testing Dataset', 0.6931322813034058]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.00025, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.9888888597488403], ['Validation Dataset', 0.8311688303947449], ['Testing Dataset', 0.7424242496490479]] 
+Loss: [['Training Dataset', 0.022192632779479027], ['Validation Dataset', 0.605368971824646], ['Testing Dataset', 1.0153521299362183]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.00025, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.5111111402511597], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6883460879325867], ['Validation Dataset', 0.696122944355011], ['Testing Dataset', 0.6937211751937866]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.00025, momentum = 0.6 
+Accuracy: [['Training Dataset', 1.0], ['Validation Dataset', 0.9220778942108154], ['Testing Dataset', 0.7575757503509521]] 
+Loss: [['Training Dataset', 0.009940345771610737], ['Validation Dataset', 0.2784345746040344], ['Testing Dataset', 0.6553735733032227]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.00025, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.696887195110321], ['Validation Dataset', 0.6833981871604919], ['Testing Dataset', 0.6941697001457214]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.00025, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.7722222208976746], ['Validation Dataset', 0.8181818127632141], ['Testing Dataset', 0.6363636255264282]] 
+Loss: [['Training Dataset', 1.9293979406356812], ['Validation Dataset', 1.7190935611724854], ['Testing Dataset', 2.960798978805542]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.00025, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6934459805488586], ['Validation Dataset', 0.8627894520759583], ['Testing Dataset', 0.7085958123207092]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.00025, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.9444444179534912], ['Validation Dataset', 0.8441558480262756], ['Testing Dataset', 0.6666666865348816]] 
+Loss: [['Training Dataset', 0.23916567862033844], ['Validation Dataset', 0.7315218448638916], ['Testing Dataset', 2.064061403274536]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.00025, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6937417387962341], ['Validation Dataset', 0.6892399787902832], ['Testing Dataset', 0.69731605052948]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.00025, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.9166666865348816], ['Validation Dataset', 0.8311688303947449], ['Testing Dataset', 0.7272727489471436]] 
+Loss: [['Training Dataset', 0.19526416063308716], ['Validation Dataset', 0.9515287280082703], ['Testing Dataset', 1.2258546352386475]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.00025, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6931610703468323], ['Validation Dataset', 0.6932562589645386], ['Testing Dataset', 0.6931638717651367]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.00025, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.949999988079071], ['Validation Dataset', 0.8571428656578064], ['Testing Dataset', 0.7575757503509521]] 
+Loss: [['Training Dataset', 0.14000745117664337], ['Validation Dataset', 1.1076891422271729], ['Testing Dataset', 1.3886082172393799]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.00025, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6940324902534485], ['Validation Dataset', 0.6903983354568481], ['Testing Dataset', 0.6959339380264282]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.00025, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.9944444298744202], ['Validation Dataset', 0.8571428656578064], ['Testing Dataset', 0.8636363744735718]] 
+Loss: [['Training Dataset', 0.007099846377968788], ['Validation Dataset', 0.3754451870918274], ['Testing Dataset', 0.5277489423751831]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.0005, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.5166666507720947], ['Validation Dataset', 0.4285714328289032], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.7079169750213623], ['Validation Dataset', 0.6847022771835327], ['Testing Dataset', 0.6929351091384888]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.0005, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.9166666865348816], ['Validation Dataset', 0.8181818127632141], ['Testing Dataset', 0.5909090638160706]] 
+Loss: [['Training Dataset', 0.2511344850063324], ['Validation Dataset', 0.6604207158088684], ['Testing Dataset', 1.9213535785675049]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.0005, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6895336508750916], ['Validation Dataset', 0.6948068737983704], ['Testing Dataset', 0.7285023927688599]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.0005, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.9666666388511658], ['Validation Dataset', 0.7662337422370911], ['Testing Dataset', 0.7272727489471436]] 
+Loss: [['Training Dataset', 0.08577504754066467], ['Validation Dataset', 0.6116366982460022], ['Testing Dataset', 0.7888332605361938]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.0005, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.5111111402511597], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6894888281822205], ['Validation Dataset', 1.033599615097046], ['Testing Dataset', 0.6932399868965149]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.0005, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.9944444298744202], ['Validation Dataset', 0.8441558480262756], ['Testing Dataset', 0.7121211886405945]] 
+Loss: [['Training Dataset', 0.01913968287408352], ['Validation Dataset', 0.37943992018699646], ['Testing Dataset', 0.9844037890434265]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.0005, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6934080123901367], ['Validation Dataset', 0.6925754547119141], ['Testing Dataset', 0.6936773061752319]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.0005, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.9944444298744202], ['Validation Dataset', 0.8571428656578064], ['Testing Dataset', 0.6969696879386902]] 
+Loss: [['Training Dataset', 0.021886589005589485], ['Validation Dataset', 0.5863155126571655], ['Testing Dataset', 0.8818997144699097]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.0005, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.5]] 
+Loss: [['Training Dataset', 0.6932721734046936], ['Validation Dataset', 0.6940407752990723], ['Testing Dataset', 0.6919766664505005]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.0005, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.9888888597488403], ['Validation Dataset', 0.8181818127632141], ['Testing Dataset', 0.7424242496490479]] 
+Loss: [['Training Dataset', 0.045474957674741745], ['Validation Dataset', 0.6795946359634399], ['Testing Dataset', 1.9166383743286133]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.0005, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6930915713310242], ['Validation Dataset', 0.6926770806312561], ['Testing Dataset', 0.6930795907974243]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.0005, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.8999999761581421], ['Validation Dataset', 0.7922077775001526], ['Testing Dataset', 0.7272727489471436]] 
+Loss: [['Training Dataset', 0.26481762528419495], ['Validation Dataset', 0.7119821310043335], ['Testing Dataset', 1.0735808610916138]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.0005, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6931690573692322], ['Validation Dataset', 0.6933169364929199], ['Testing Dataset', 0.6933523416519165]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.0005, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.894444465637207], ['Validation Dataset', 0.8311688303947449], ['Testing Dataset', 0.7272727489471436]] 
+Loss: [['Training Dataset', 0.20574851334095], ['Validation Dataset', 0.7890167236328125], ['Testing Dataset', 1.11636221408844]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.0005, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6859312057495117], ['Validation Dataset', 0.6926611661911011], ['Testing Dataset', 0.6925585269927979]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.0005, momentum = 0.3 
+Accuracy: [['Training Dataset', 1.0], ['Validation Dataset', 0.8311688303947449], ['Testing Dataset', 0.7121211886405945]] 
+Loss: [['Training Dataset', 0.024802105501294136], ['Validation Dataset', 0.3117353916168213], ['Testing Dataset', 1.4245504140853882]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.0005, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.5], ['Validation Dataset', 0.5974025726318359], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6895818114280701], ['Validation Dataset', 0.6843663454055786], ['Testing Dataset', 0.6931310296058655]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.0005, momentum = 0.3 
+Accuracy: [['Training Dataset', 1.0], ['Validation Dataset', 0.8311688303947449], ['Testing Dataset', 0.8030303120613098]] 
+Loss: [['Training Dataset', 0.022252582013607025], ['Validation Dataset', 0.5640507340431213], ['Testing Dataset', 0.6252468824386597]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.0005, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6931049227714539], ['Validation Dataset', 0.6957926154136658], ['Testing Dataset', 0.690970778465271]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.0005, momentum = 0.3 
+Accuracy: [['Training Dataset', 1.0], ['Validation Dataset', 0.8831169009208679], ['Testing Dataset', 0.8333333134651184]] 
+Loss: [['Training Dataset', 0.003987025003880262], ['Validation Dataset', 0.26723381876945496], ['Testing Dataset', 0.6565669775009155]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.0005, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.5222222208976746], ['Validation Dataset', 0.4285714328289032], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6810472011566162], ['Validation Dataset', 0.7014662623405457], ['Testing Dataset', 0.6990784406661987]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.0005, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.9111111164093018], ['Validation Dataset', 0.8311688303947449], ['Testing Dataset', 0.7424242496490479]] 
+Loss: [['Training Dataset', 0.27100804448127747], ['Validation Dataset', 0.48121118545532227], ['Testing Dataset', 0.7518287897109985]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.0005, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.5111111402511597], ['Validation Dataset', 0.4285714328289032], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6885175108909607], ['Validation Dataset', 0.691703200340271], ['Testing Dataset', 0.6945782899856567]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.0005, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.9888888597488403], ['Validation Dataset', 0.9090909361839294], ['Testing Dataset', 0.8030303120613098]] 
+Loss: [['Training Dataset', 0.036066532135009766], ['Validation Dataset', 0.38415175676345825], ['Testing Dataset', 0.536658525466919]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.0005, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6932644248008728], ['Validation Dataset', 0.6927003264427185], ['Testing Dataset', 0.693559467792511]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.0005, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.9888888597488403], ['Validation Dataset', 0.8961039185523987], ['Testing Dataset', 0.7272727489471436]] 
+Loss: [['Training Dataset', 0.017195625230669975], ['Validation Dataset', 0.3270900845527649], ['Testing Dataset', 1.0688050985336304]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.0005, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.5]] 
+Loss: [['Training Dataset', 0.6931452751159668], ['Validation Dataset', 0.6931545734405518], ['Testing Dataset', 0.6844755411148071]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.0005, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.9888888597488403], ['Validation Dataset', 0.8181818127632141], ['Testing Dataset', 0.7575757503509521]] 
+Loss: [['Training Dataset', 0.02154378406703472], ['Validation Dataset', 0.48777762055397034], ['Testing Dataset', 0.9146648645401001]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.0005, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.5], ['Validation Dataset', 0.5584415793418884], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.689544141292572], ['Validation Dataset', 0.9466668367385864], ['Testing Dataset', 0.8224197626113892]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.0005, momentum = 0.6 
+Accuracy: [['Training Dataset', 1.0], ['Validation Dataset', 0.8831169009208679], ['Testing Dataset', 0.8030303120613098]] 
+Loss: [['Training Dataset', 0.004854515194892883], ['Validation Dataset', 0.2931119203567505], ['Testing Dataset', 0.6229292154312134]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.0005, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.5111111402511597], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.7205626368522644], ['Validation Dataset', 0.7727994918823242], ['Testing Dataset', 0.7352293729782104]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.0005, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.75], ['Validation Dataset', 0.8051947951316833], ['Testing Dataset', 0.6515151262283325]] 
+Loss: [['Training Dataset', 2.223228931427002], ['Validation Dataset', 1.884094476699829], ['Testing Dataset', 5.48728084564209]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.0005, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 1.2078200578689575], ['Validation Dataset', 0.9907808303833008], ['Testing Dataset', 0.9544956088066101]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.0005, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.9777777791023254], ['Validation Dataset', 0.9090909361839294], ['Testing Dataset', 0.7272727489471436]] 
+Loss: [['Training Dataset', 0.0875556468963623], ['Validation Dataset', 0.40383100509643555], ['Testing Dataset', 1.6258081197738647]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.0005, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.693162202835083], ['Validation Dataset', 0.6929225921630859], ['Testing Dataset', 0.6931139230728149]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.0005, momentum = 0.9 
+Accuracy: [['Training Dataset', 1.0], ['Validation Dataset', 0.9220778942108154], ['Testing Dataset', 0.7727272510528564]] 
+Loss: [['Training Dataset', 0.030828943476080894], ['Validation Dataset', 0.23163875937461853], ['Testing Dataset', 0.4451295733451843]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.0005, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6936352849006653], ['Validation Dataset', 0.6896764039993286], ['Testing Dataset', 0.6928378343582153]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.0005, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.9944444298744202], ['Validation Dataset', 0.9350649118423462], ['Testing Dataset', 0.7878788113594055]] 
+Loss: [['Training Dataset', 0.032227545976638794], ['Validation Dataset', 0.2143850028514862], ['Testing Dataset', 0.47344619035720825]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.0005, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6964209079742432], ['Validation Dataset', 0.7054897546768188], ['Testing Dataset', 0.6857031583786011]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.0005, momentum = 0.9 
+Accuracy: [['Training Dataset', 1.0], ['Validation Dataset', 0.948051929473877], ['Testing Dataset', 0.8181818127632141]] 
+Loss: [['Training Dataset', 0.006324689369648695], ['Validation Dataset', 0.18797259032726288], ['Testing Dataset', 0.7000224590301514]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.001, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6931373476982117], ['Validation Dataset', 0.6933125257492065], ['Testing Dataset', 0.6931725740432739]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.001, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.9222221970558167], ['Validation Dataset', 0.8311688303947449], ['Testing Dataset', 0.7272727489471436]] 
+Loss: [['Training Dataset', 0.1941738873720169], ['Validation Dataset', 0.6813039779663086], ['Testing Dataset', 0.8075765371322632]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.001, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.7240503430366516], ['Validation Dataset', 0.6819471120834351], ['Testing Dataset', 0.6736570596694946]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.001, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.9277777671813965], ['Validation Dataset', 0.8181818127632141], ['Testing Dataset', 0.7272727489471436]] 
+Loss: [['Training Dataset', 0.18614685535430908], ['Validation Dataset', 0.6134737133979797], ['Testing Dataset', 0.8367819786071777]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.001, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6935245990753174], ['Validation Dataset', 0.6942951083183289], ['Testing Dataset', 0.6933403611183167]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.001, momentum = 0.1 
+Accuracy: [['Training Dataset', 1.0], ['Validation Dataset', 0.8311688303947449], ['Testing Dataset', 0.7424242496490479]] 
+Loss: [['Training Dataset', 0.014989792369306087], ['Validation Dataset', 0.40815481543540955], ['Testing Dataset', 0.6574079990386963]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.001, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6930927634239197], ['Validation Dataset', 0.693367600440979], ['Testing Dataset', 0.6929489374160767]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.001, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.9944444298744202], ['Validation Dataset', 0.8571428656578064], ['Testing Dataset', 0.7424242496490479]] 
+Loss: [['Training Dataset', 0.03210366889834404], ['Validation Dataset', 0.3788778781890869], ['Testing Dataset', 0.719243586063385]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.001, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6934463977813721], ['Validation Dataset', 0.6906038522720337], ['Testing Dataset', 0.695703387260437]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.001, momentum = 0.1 
+Accuracy: [['Training Dataset', 1.0], ['Validation Dataset', 0.8311688303947449], ['Testing Dataset', 0.7272727489471436]] 
+Loss: [['Training Dataset', 0.007992875762283802], ['Validation Dataset', 0.4184233546257019], ['Testing Dataset', 0.717965841293335]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.001, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6895529627799988], ['Validation Dataset', 2.0868611335754395], ['Testing Dataset', 0.6935544610023499]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.001, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.9166666865348816], ['Validation Dataset', 0.7922077775001526], ['Testing Dataset', 0.6515151262283325]] 
+Loss: [['Training Dataset', 0.18518172204494476], ['Validation Dataset', 0.582332968711853], ['Testing Dataset', 1.2618452310562134]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.001, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6931872367858887], ['Validation Dataset', 0.6934530138969421], ['Testing Dataset', 0.6931949257850647]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.001, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.949999988079071], ['Validation Dataset', 0.8701298832893372], ['Testing Dataset', 0.7121211886405945]] 
+Loss: [['Training Dataset', 0.14457319676876068], ['Validation Dataset', 0.45505207777023315], ['Testing Dataset', 0.9460757970809937]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.001, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6931911110877991], ['Validation Dataset', 0.6929750442504883], ['Testing Dataset', 0.6929389238357544]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.001, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.9944444298744202], ['Validation Dataset', 0.8701298832893372], ['Testing Dataset', 0.7424242496490479]] 
+Loss: [['Training Dataset', 0.023108461871743202], ['Validation Dataset', 0.35934412479400635], ['Testing Dataset', 0.6897264719009399]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.001, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6938071846961975], ['Validation Dataset', 0.6889934539794922], ['Testing Dataset', 0.6928374767303467]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.001, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.9888888597488403], ['Validation Dataset', 0.8571428656578064], ['Testing Dataset', 0.6818181872367859]] 
+Loss: [['Training Dataset', 0.0303634162992239], ['Validation Dataset', 0.40977922081947327], ['Testing Dataset', 1.113312005996704]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.001, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6929705739021301], ['Validation Dataset', 0.6938977241516113], ['Testing Dataset', 0.6932691335678101]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.001, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.9555555582046509], ['Validation Dataset', 0.8701298832893372], ['Testing Dataset', 0.7575757503509521]] 
+Loss: [['Training Dataset', 0.05967104062438011], ['Validation Dataset', 0.5391157865524292], ['Testing Dataset', 1.7910497188568115]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.001, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5714285969734192], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6929332613945007], ['Validation Dataset', 1.3998210430145264], ['Testing Dataset', 0.6928566694259644]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.001, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.9111111164093018], ['Validation Dataset', 0.8571428656578064], ['Testing Dataset', 0.7272727489471436]] 
+Loss: [['Training Dataset', 0.2443752884864807], ['Validation Dataset', 0.5251536965370178], ['Testing Dataset', 0.9195953607559204]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.001, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.5277777910232544], ['Validation Dataset', 0.4285714328289032], ['Testing Dataset', 0.469696968793869]] 
+Loss: [['Training Dataset', 0.681388795375824], ['Validation Dataset', 1.1054517030715942], ['Testing Dataset', 3.4931442737579346]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.001, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.9833333492279053], ['Validation Dataset', 0.8701298832893372], ['Testing Dataset', 0.8636363744735718]] 
+Loss: [['Training Dataset', 0.04947015643119812], ['Validation Dataset', 0.2837725579738617], ['Testing Dataset', 0.46983322501182556]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.001, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.693038284778595], ['Validation Dataset', 0.6927967071533203], ['Testing Dataset', 0.6930961608886719]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.001, momentum = 0.6 
+Accuracy: [['Training Dataset', 1.0], ['Validation Dataset', 0.8701298832893372], ['Testing Dataset', 0.7424242496490479]] 
+Loss: [['Training Dataset', 0.02231350541114807], ['Validation Dataset', 0.33136501908302307], ['Testing Dataset', 0.7729408740997314]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.001, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6931363940238953], ['Validation Dataset', 0.6933302879333496], ['Testing Dataset', 0.6929823756217957]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.001, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.9944444298744202], ['Validation Dataset', 0.8441558480262756], ['Testing Dataset', 0.7424242496490479]] 
+Loss: [['Training Dataset', 0.026030560955405235], ['Validation Dataset', 0.5278381109237671], ['Testing Dataset', 0.8759342432022095]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.001, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6937050223350525], ['Validation Dataset', 0.6948140263557434], ['Testing Dataset', 0.6934398412704468]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.001, momentum = 0.6 
+Accuracy: [['Training Dataset', 1.0], ['Validation Dataset', 0.9090909361839294], ['Testing Dataset', 0.7878788113594055]] 
+Loss: [['Training Dataset', 0.00885066483169794], ['Validation Dataset', 0.23710417747497559], ['Testing Dataset', 0.8749035000801086]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.001, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.693001925945282], ['Validation Dataset', 0.6926770806312561], ['Testing Dataset', 0.6935814023017883]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.001, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.6833333373069763], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5757575631141663]] 
+Loss: [['Training Dataset', 2.4232332706451416], ['Validation Dataset', 3.751687526702881], ['Testing Dataset', 6.450742244720459]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.001, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 67.47905731201172], ['Validation Dataset', 84.82415008544922], ['Testing Dataset', 87.34367370605469]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.001, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.8444444537162781], ['Validation Dataset', 0.8311688303947449], ['Testing Dataset', 0.6666666865348816]] 
+Loss: [['Training Dataset', 0.6626594662666321], ['Validation Dataset', 0.8971940875053406], ['Testing Dataset', 1.277298092842102]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.001, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.5222222208976746], ['Validation Dataset', 0.4285714328289032], ['Testing Dataset', 0.5]] 
+Loss: [['Training Dataset', 0.8072040677070618], ['Validation Dataset', 0.884885311126709], ['Testing Dataset', 0.8134676814079285]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.001, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.9944444298744202], ['Validation Dataset', 0.9090909361839294], ['Testing Dataset', 0.8181818127632141]] 
+Loss: [['Training Dataset', 0.03269346430897713], ['Validation Dataset', 0.24583204090595245], ['Testing Dataset', 0.547210693359375]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.001, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6932746767997742], ['Validation Dataset', 0.6940574049949646], ['Testing Dataset', 0.6942448616027832]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.001, momentum = 0.9 
+Accuracy: [['Training Dataset', 1.0], ['Validation Dataset', 0.9350649118423462], ['Testing Dataset', 0.8333333134651184]] 
+Loss: [['Training Dataset', 0.010887589305639267], ['Validation Dataset', 0.14818459749221802], ['Testing Dataset', 0.2768593728542328]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.001, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.693121612071991], ['Validation Dataset', 0.6936219334602356], ['Testing Dataset', 0.6937204599380493]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.001, momentum = 0.9 
+Accuracy: [['Training Dataset', 1.0], ['Validation Dataset', 0.9350649118423462], ['Testing Dataset', 0.8030303120613098]] 
+Loss: [['Training Dataset', 0.009675511159002781], ['Validation Dataset', 0.1666271984577179], ['Testing Dataset', 0.6235145330429077]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.005, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 40.047515869140625], ['Validation Dataset', 47.16203308105469], ['Testing Dataset', 34.398712158203125]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.005, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.8444444537162781], ['Validation Dataset', 0.7922077775001526], ['Testing Dataset', 0.6666666865348816]] 
+Loss: [['Training Dataset', 0.3737061023712158], ['Validation Dataset', 0.4248336851596832], ['Testing Dataset', 0.5626963376998901]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.005, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6895299553871155], ['Validation Dataset', 0.6934111714363098], ['Testing Dataset', 0.6931880712509155]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.005, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.9666666388511658], ['Validation Dataset', 0.8831169009208679], ['Testing Dataset', 0.7272727489471436]] 
+Loss: [['Training Dataset', 0.14894479513168335], ['Validation Dataset', 0.3169131875038147], ['Testing Dataset', 0.44240039587020874]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.005, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6930758357048035], ['Validation Dataset', 0.6934378147125244], ['Testing Dataset', 0.6928862929344177]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.005, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.9888888597488403], ['Validation Dataset', 0.8831169009208679], ['Testing Dataset', 0.8030303120613098]] 
+Loss: [['Training Dataset', 0.07821746170520782], ['Validation Dataset', 0.2297872006893158], ['Testing Dataset', 0.49841052293777466]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.005, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.5111111402511597], ['Validation Dataset', 0.4285714328289032], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6894831657409668], ['Validation Dataset', 0.6845890283584595], ['Testing Dataset', 0.6930434107780457]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.005, momentum = 0.1 
+Accuracy: [['Training Dataset', 1.0], ['Validation Dataset', 0.8701298832893372], ['Testing Dataset', 0.7575757503509521]] 
+Loss: [['Training Dataset', 0.02334132045507431], ['Validation Dataset', 0.31150734424591064], ['Testing Dataset', 0.5996662378311157]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.005, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5974025726318359], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6931937336921692], ['Validation Dataset', 0.6843699812889099], ['Testing Dataset', 0.6932427287101746]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.005, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.6611111164093018], ['Validation Dataset', 0.6883116960525513], ['Testing Dataset', 0.6212121248245239]] 
+Loss: [['Training Dataset', 0.9440948367118835], ['Validation Dataset', 1.199862003326416], ['Testing Dataset', 2.3194377422332764]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.005, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6933220028877258], ['Validation Dataset', 0.6924933195114136], ['Testing Dataset', 0.6930551528930664]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.005, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.855555534362793], ['Validation Dataset', 0.7662337422370911], ['Testing Dataset', 0.6818181872367859]] 
+Loss: [['Training Dataset', 0.32676419615745544], ['Validation Dataset', 0.4550231397151947], ['Testing Dataset', 0.6466123461723328]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.005, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6927454471588135], ['Validation Dataset', 0.6950491070747375], ['Testing Dataset', 0.693487286567688]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.005, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.9166666865348816], ['Validation Dataset', 0.7922077775001526], ['Testing Dataset', 0.6969696879386902]] 
+Loss: [['Training Dataset', 0.18583965301513672], ['Validation Dataset', 0.46314096450805664], ['Testing Dataset', 0.6412695050239563]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.005, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.5111111402511597], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6863048672676086], ['Validation Dataset', 0.6955056190490723], ['Testing Dataset', 0.695979654788971]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.005, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.9888888597488403], ['Validation Dataset', 0.9220778942108154], ['Testing Dataset', 0.7727272510528564]] 
+Loss: [['Training Dataset', 0.05493998900055885], ['Validation Dataset', 0.2748962938785553], ['Testing Dataset', 0.6781052350997925]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.005, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6931324005126953], ['Validation Dataset', 0.6930276155471802], ['Testing Dataset', 0.693129301071167]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.005, momentum = 0.3 
+Accuracy: [['Training Dataset', 1.0], ['Validation Dataset', 0.9090909361839294], ['Testing Dataset', 0.8030303120613098]] 
+Loss: [['Training Dataset', 0.035640835762023926], ['Validation Dataset', 0.18504570424556732], ['Testing Dataset', 0.3896196186542511]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.005, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6938695311546326], ['Validation Dataset', 0.6887721419334412], ['Testing Dataset', 0.6928426027297974]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.005, momentum = 0.3 
+Accuracy: [['Training Dataset', 1.0], ['Validation Dataset', 0.8961039185523987], ['Testing Dataset', 0.7878788113594055]] 
+Loss: [['Training Dataset', 0.023597566410899162], ['Validation Dataset', 0.25898557901382446], ['Testing Dataset', 0.5174548029899597]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.005, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.693206787109375], ['Validation Dataset', 0.6929154396057129], ['Testing Dataset', 0.6931129693984985]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.005, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.8500000238418579], ['Validation Dataset', 0.8441558480262756], ['Testing Dataset', 0.7121211886405945]] 
+Loss: [['Training Dataset', 0.40899336338043213], ['Validation Dataset', 0.4002555310726166], ['Testing Dataset', 1.061627984046936]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.005, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.5166666507720947], ['Validation Dataset', 0.4675324559211731], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6854344010353088], ['Validation Dataset', 1441788.75], ['Testing Dataset', 138108.65625]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.005, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.9333333373069763], ['Validation Dataset', 0.9090909361839294], ['Testing Dataset', 0.7727272510528564]] 
+Loss: [['Training Dataset', 0.17015106976032257], ['Validation Dataset', 0.22850637137889862], ['Testing Dataset', 0.4804152846336365]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.005, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6931745409965515], ['Validation Dataset', 0.6927586793899536], ['Testing Dataset', 0.6935048699378967]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.005, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.9611111283302307], ['Validation Dataset', 0.9220778942108154], ['Testing Dataset', 0.7878788113594055]] 
+Loss: [['Training Dataset', 0.3661592900753021], ['Validation Dataset', 0.4311426281929016], ['Testing Dataset', 0.5259537696838379]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.005, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6958033442497253], ['Validation Dataset', 0.6846877336502075], ['Testing Dataset', 0.6824991106987]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.005, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.9722222089767456], ['Validation Dataset', 0.8961039185523987], ['Testing Dataset', 0.7878788113594055]] 
+Loss: [['Training Dataset', 0.07027193158864975], ['Validation Dataset', 0.3081139922142029], ['Testing Dataset', 0.8164196014404297]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.005, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5714285969734192], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6932458281517029], ['Validation Dataset', 129.0111846923828], ['Testing Dataset', 0.6917579770088196]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.005, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.8833333253860474], ['Validation Dataset', 0.8571428656578064], ['Testing Dataset', 0.7424242496490479]] 
+Loss: [['Training Dataset', 0.20189768075942993], ['Validation Dataset', 0.5122334361076355], ['Testing Dataset', 0.7157261967658997]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.005, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6932659149169922], ['Validation Dataset', 0.6940004229545593], ['Testing Dataset', 0.692397952079773]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.005, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.8388888835906982], ['Validation Dataset', 0.7402597665786743], ['Testing Dataset', 0.6363636255264282]] 
+Loss: [['Training Dataset', 0.4642958343029022], ['Validation Dataset', 0.5494500994682312], ['Testing Dataset', 0.8586508631706238]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.005, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.5111111402511597], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6916623711585999], ['Validation Dataset', 0.7029961943626404], ['Testing Dataset', 0.7047799229621887]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.005, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.7833333611488342], ['Validation Dataset', 0.7792207598686218], ['Testing Dataset', 0.7121211886405945]] 
+Loss: [['Training Dataset', 0.6444748044013977], ['Validation Dataset', 0.620908796787262], ['Testing Dataset', 0.7175922393798828]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.005, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6907739639282227], ['Validation Dataset', 0.7139143943786621], ['Testing Dataset', 0.717275857925415]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.005, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.7333333492279053], ['Validation Dataset', 0.7532467246055603], ['Testing Dataset', 0.5757575631141663]] 
+Loss: [['Training Dataset', 0.5705735087394714], ['Validation Dataset', 0.8430366516113281], ['Testing Dataset', 1.0848312377929688]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.005, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6931130886077881], ['Validation Dataset', 42302.6328125], ['Testing Dataset', 0.6823161840438843]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.005, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.9444444179534912], ['Validation Dataset', 0.8961039185523987], ['Testing Dataset', 0.8787878751754761]] 
+Loss: [['Training Dataset', 0.07435335963964462], ['Validation Dataset', 0.3956550061702728], ['Testing Dataset', 1.0667086839675903]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.005, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6970160603523254], ['Validation Dataset', 0.6832688450813293], ['Testing Dataset', 0.680561900138855]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.005, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.9722222089767456], ['Validation Dataset', 0.9610389471054077], ['Testing Dataset', 0.7878788113594055]] 
+Loss: [['Training Dataset', 0.0706242173910141], ['Validation Dataset', 0.16328999400138855], ['Testing Dataset', 0.4195472300052643]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.01, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.5222222208976746], ['Validation Dataset', 0.4025973975658417], ['Testing Dataset', 0.5]] 
+Loss: [['Training Dataset', 0.682328999042511], ['Validation Dataset', 4590095360.0], ['Testing Dataset', 0.6845094561576843]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.01, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.644444465637207], ['Validation Dataset', 0.6883116960525513], ['Testing Dataset', 0.560606062412262]] 
+Loss: [['Training Dataset', 0.6250916123390198], ['Validation Dataset', 0.5747131705284119], ['Testing Dataset', 0.7186328768730164]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.01, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.4888888895511627], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 153.27418518066406], ['Validation Dataset', 78.40266418457031], ['Testing Dataset', 0.6932295560836792]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.01, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.7722222208976746], ['Validation Dataset', 0.6883116960525513], ['Testing Dataset', 0.5909090638160706]] 
+Loss: [['Training Dataset', 0.47720178961753845], ['Validation Dataset', 0.6742768287658691], ['Testing Dataset', 0.8796321749687195]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.01, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.5222222208976746], ['Validation Dataset', 0.4285714328289032], ['Testing Dataset', 0.469696968793869]] 
+Loss: [['Training Dataset', 0.6823551058769226], ['Validation Dataset', 0.6852599382400513], ['Testing Dataset', 399.30572509765625]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.01, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.7555555701255798], ['Validation Dataset', 0.7402597665786743], ['Testing Dataset', 0.6363636255264282]] 
+Loss: [['Training Dataset', 0.450679749250412], ['Validation Dataset', 0.6200844645500183], ['Testing Dataset', 0.6918408870697021]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.01, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6930891871452332], ['Validation Dataset', 0.6926559805870056], ['Testing Dataset', 0.6925522089004517]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.01, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.9166666865348816], ['Validation Dataset', 0.9350649118423462], ['Testing Dataset', 0.7272727489471436]] 
+Loss: [['Training Dataset', 0.3904198408126831], ['Validation Dataset', 0.3839658200740814], ['Testing Dataset', 0.6035923957824707]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.01, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.5111111402511597], ['Validation Dataset', 0.44155845046043396], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6897242069244385], ['Validation Dataset', 0.6751329302787781], ['Testing Dataset', 0.6934213638305664]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.01, momentum = 0.1 
+Accuracy: [['Training Dataset', 0.8222222328186035], ['Validation Dataset', 0.7922077775001526], ['Testing Dataset', 0.6818181872367859]] 
+Loss: [['Training Dataset', 0.4548199474811554], ['Validation Dataset', 0.5696984529495239], ['Testing Dataset', 0.5863422155380249]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.01, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6926034092903137], ['Validation Dataset', 0.6959583759307861], ['Testing Dataset', 0.6880558133125305]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.01, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.5388888716697693], ['Validation Dataset', 0.4545454680919647], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 1.312254786491394], ['Validation Dataset', 1.7403463125228882], ['Testing Dataset', 1.7040809392929077]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.01, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.5166666507720947], ['Validation Dataset', 0.4285714328289032], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6857225298881531], ['Validation Dataset', 0.6888917088508606], ['Testing Dataset', 0.6941638588905334]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.01, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.6222222447395325], ['Validation Dataset', 0.4545454680919647], ['Testing Dataset', 0.5454545617103577]] 
+Loss: [['Training Dataset', 0.6590043306350708], ['Validation Dataset', 0.6905273199081421], ['Testing Dataset', 0.6779100298881531]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.01, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.5166666507720947], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6857576370239258], ['Validation Dataset', 0.6950260400772095], ['Testing Dataset', 0.693482518196106]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.01, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.8333333134651184], ['Validation Dataset', 0.7922077775001526], ['Testing Dataset', 0.5454545617103577]] 
+Loss: [['Training Dataset', 0.4672297239303589], ['Validation Dataset', 0.645858108997345], ['Testing Dataset', 0.8435686230659485]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.01, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6932291388511658], ['Validation Dataset', 0.6937516331672668], ['Testing Dataset', 0.6932441592216492]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.01, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.8388888835906982], ['Validation Dataset', 0.7402597665786743], ['Testing Dataset', 0.6666666865348816]] 
+Loss: [['Training Dataset', 0.4060211479663849], ['Validation Dataset', 0.49255919456481934], ['Testing Dataset', 0.5696519613265991]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.01, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.5111111402511597], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6891120076179504], ['Validation Dataset', 0.6940962076187134], ['Testing Dataset', 0.6942914724349976]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.01, momentum = 0.3 
+Accuracy: [['Training Dataset', 0.9888888597488403], ['Validation Dataset', 0.8441558480262756], ['Testing Dataset', 0.8181818127632141]] 
+Loss: [['Training Dataset', 0.06050199642777443], ['Validation Dataset', 0.36741185188293457], ['Testing Dataset', 0.40958094596862793]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.01, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 23.712366104125977], ['Validation Dataset', 0.6974747776985168], ['Testing Dataset', 0.7783066034317017]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.01, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.3499999940395355], ['Validation Dataset', 0.48051947355270386], ['Testing Dataset', 0.42424243688583374]] 
+Loss: [['Training Dataset', 1.1883255243301392], ['Validation Dataset', 0.9171603918075562], ['Testing Dataset', 0.9320806264877319]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.01, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6923560500144958], ['Validation Dataset', 0.6984132528305054], ['Testing Dataset', 0.699425995349884]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.01, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.5666666626930237], ['Validation Dataset', 0.4025973975658417], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.647205650806427], ['Validation Dataset', 0.7449694275856018], ['Testing Dataset', 0.68417888879776]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.01, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6933925151824951], ['Validation Dataset', 0.6922492980957031], ['Testing Dataset', 0.6930243968963623]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.01, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.9166666865348816], ['Validation Dataset', 0.9090909361839294], ['Testing Dataset', 0.8030303120613098]] 
+Loss: [['Training Dataset', 0.3566756546497345], ['Validation Dataset', 0.4313793182373047], ['Testing Dataset', 0.5246448516845703]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.01, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6932382583618164], ['Validation Dataset', 515.1224365234375], ['Testing Dataset', 0.6942110657691956]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.01, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.693286120891571], ['Validation Dataset', 0.6941317319869995], ['Testing Dataset', 0.6922867894172668]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.01, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.5277777910232544], ['Validation Dataset', 0.4285714328289032], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6788956522941589], ['Validation Dataset', 245.42733764648438], ['Testing Dataset', 0.6903925538063049]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.01, momentum = 0.6 
+Accuracy: [['Training Dataset', 0.9388889074325562], ['Validation Dataset', 0.8961039185523987], ['Testing Dataset', 0.8030303120613098]] 
+Loss: [['Training Dataset', 0.11715194582939148], ['Validation Dataset', 0.39571279287338257], ['Testing Dataset', 0.45147380232810974]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.01, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.44155845046043396], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 486.4161682128906], ['Validation Dataset', 545.416259765625], ['Testing Dataset', 503.82476806640625]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 1, batch_size = 16, learning_rate = 0.01, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.5722222328186035], ['Validation Dataset', 0.5194805264472961], ['Testing Dataset', 0.6515151262283325]] 
+Loss: [['Training Dataset', 71.01354217529297], ['Validation Dataset', 79.2524185180664], ['Testing Dataset', 103.25250244140625]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.01, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6938755512237549], ['Validation Dataset', 0.7142302393913269], ['Testing Dataset', 0.7176332473754883]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 2, batch_size = 16, learning_rate = 0.01, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.49444442987442017], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.6995840072631836], ['Validation Dataset', 0.6831790804862976], ['Testing Dataset', 0.6804364919662476]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.01, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.5], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5303030014038086]] 
+Loss: [['Training Dataset', 0.6957347989082336], ['Validation Dataset', 0.6830389499664307], ['Testing Dataset', 0.6846758723258972]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 3, batch_size = 16, learning_rate = 0.01, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.5714285969734192], ['Testing Dataset', 0.5454545617103577]] 
+Loss: [['Training Dataset', 0.6880044341087341], ['Validation Dataset', 0.7297951579093933], ['Testing Dataset', 0.6752138137817383]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.01, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6930932998657227], ['Validation Dataset', 0.6950889825820923], ['Testing Dataset', 0.6954818964004517]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 4, batch_size = 16, learning_rate = 0.01, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.5844155550003052], ['Testing Dataset', 0.5151515007019043]] 
+Loss: [['Training Dataset', 0.7923839688301086], ['Validation Dataset', 0.722081184387207], ['Testing Dataset', 0.7880911231040955]]
+Model: resnet
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.01, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.5055555701255798], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6933016180992126], ['Validation Dataset', 4926.0966796875], ['Testing Dataset', 0.6933284997940063]]
+Model: vgg
+Optimizer stats: name = SGD, epoch = 5, batch_size = 16, learning_rate = 0.01, momentum = 0.9 
+Accuracy: [['Training Dataset', 0.5111111402511597], ['Validation Dataset', 0.41558441519737244], ['Testing Dataset', 0.4848484992980957]] 
+Loss: [['Training Dataset', 0.6894785761833191], ['Validation Dataset', 0.6938732862472534], ['Testing Dataset', 0.6932648420333862]]
