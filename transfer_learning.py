@@ -85,7 +85,7 @@ class Transfer_Learning:
         my_model.add(tensorflow.keras.layers.Conv2D(64, (3,3), activation = "relu"))
         my_model.add(tensorflow.keras.layers.Flatten())
         my_model.add(tensorflow.keras.layers.Dense(256, activation='relu'))
-        my_model.add(tensorflow.keras.layers.Dropout(0.5))
+        my_model.add(tensorflow.keras.layers.Dropout(0.2))
         my_model.add(tensorflow.keras.layers.Dense(2, activation='softmax'))
         return my_model
     # end of definition adjust model
